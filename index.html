@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090909">
+    <meta name="description" content="Ayana KM's developer portfolio featuring web development projects, technical skills and contact information.">
+
+    <title>Ayana KM | Software Developer Portfolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="logo">ayana<span>.</span>km</a>
+
+            <button id="menuBtn" class="menu-btn"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">☰</button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="nav-contact">Let's Connect <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero section-wrap">
+            <div class="hero-glow"></div>
+
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    DEVELOPER IN PROGRESS
+                </div>
+
+                <p class="eyebrow">HELLO, I'M AYANA KM</p>
+
+                <h1>Building ideas<br>
+                    into <span class="accent-text">digital</span><br>
+                    experiences<span class="accent-text">.</span>
+                </h1>
+
+                <h2>Diploma in Computer Engineering Graduate <span>|</span> Aspiring Software Developer</h2>
+
+                <p class="hero-description">
+                    I enjoy turning ideas into useful digital experiences.
+                    Currently learning Python Full Stack Development and React.js,
+                    while building projects and improving my skills.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/ayana-2"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <span></span>
+                    <a href="https://www.linkedin.com/in/ayanakm/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+
+                <div class="developer-card">
+                    <div class="card-top">
+                        <div class="window-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="card-label">DEVELOPER PROFILE</span>
+                    </div>
+
+                    <div class="avatar">A<span>.</span></div>
+
+                    <h3>Ayana KM</h3>
+                    <p class="profile-role">Aspiring Software Developer</p>
+
+                    <div class="card-divider"></div>
+
+                    <div class="code-line">
+                        <span class="code-number">01</span>
+                        <span class="code-key">const</span> developer = <span class="code-value">"Ayana"</span>;
+                    </div>
+                    <div class="code-line">
+                        <span class="code-number">02</span>
+                        <span class="code-key">const</span> focus = <span class="code-value">"Web Development"</span>;
+                    </div>
+                    <div class="code-line">
+                        <span class="code-number">03</span>
+                        <span class="code-key">const</span> learning = <span class="code-value">"Every day"</span>;
+                    </div>
+
+                    <div class="profile-tags">
+                        <span>HTML & CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="floating-symbol symbol-one">&lt;/&gt;</div>
+                <div class="floating-symbol symbol-two">{ }</div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span></span> SCROLL TO EXPLORE
+            </a>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section-wrap section-block">
+            <div class="section-heading reveal">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Curious mind. <span class="accent-text">Creative code.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-main reveal">
+                    <span class="about-mark">01 / ABOUT</span>
+                    <h3>Learning today.<br>Building for tomorrow.</h3>
+                    <p>
+                        I completed my Diploma in Computer Engineering at
+                        AKNM Polytechnic College, Thirurangadi. I am currently
+                        learning Python Full Stack Development and React.js.
+                    </p>
+                    <p>
+                        I enjoy exploring web technologies, creating practical
+                        projects and learning how different parts of an
+                        application work together. My goal is to grow as a
+                        software developer through hands-on experience.
+                    </p>
+                </div>
+
+                <div class="about-side reveal">
+                    <div class="info-card">
+                        <span class="info-icon">⌘</span>
+                        <div>
+                            <h4>My Approach</h4>
+                            <p>Learn, practise, build and improve.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">✳</span>
+                        <div>
+                            <h4>Current Focus</h4>
+                            <p>Python Full Stack & React.js</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">↗</span>
+                        <div>
+                            <h4>My Goal</h4>
+                            <p>Grow through real-world development experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section-block skills-section">
+            <div class="section-wrap">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>My technical <span class="accent-text">toolkit.</span></h2>
+                    <p class="section-description">
+                        Technologies I have learned and continue to practise.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <span class="skill-index">01</span>
+                        <div class="skill-symbol">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Web page structure</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">02</span>
+                        <div class="skill-symbol">#</div>
+                        <h3>CSS</h3>
+                        <p>Styling & layouts</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">03</span>
+                        <div class="skill-symbol">✳</div>
+                        <h3>Tailwind CSS</h3>
+                        <p>Utility-first styling</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">04</span>
+                        <div class="skill-symbol">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive web pages</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">05</span>
+                        <div class="skill-symbol">Py</div>
+                        <h3>Python</h3>
+                        <p>Programming fundamentals</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">06</span>
+                        <div class="skill-symbol">J</div>
+                        <h3>Java</h3>
+                        <p>Programming fundamentals</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <span class="skill-index">07</span>
+                        <div class="skill-symbol">R</div>
+                        <h3>React.js</h3>
+                        <p>Currently learning</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section-block">
+            <div class="section-wrap">
+                <div class="projects-heading reveal">
+                    <div class="section-heading">
+                        <p class="eyebrow">SELECTED WORK</p>
+                        <h2>Things I've <span class="accent-text">built.</span></h2>
+                        <p class="section-description">
+                            A collection of projects from my learning journey.
+                        </p>
+                    </div>
+                    <span class="project-count">05 PROJECTS</span>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-type">WEB APP</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+                        <div class="project-art art-quiz">
+                            <div class="mock-window">
+                                <div class="mock-dots">● ● ●</div>
+                                <div class="mock-question">Test your knowledge<span>?</span></div>
+                                <div class="mock-answer">A. Choose an answer</div>
+                                <div class="mock-answer">B. Try another option</div>
+                                <div class="mock-progress"></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Quiz Application</h3>
+                            <p>An interactive quiz app for answering questions and testing knowledge.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <a href="https://quiz-app-chi-gold.vercel.app/"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">View Live Project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-type">AI PROJECT</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+                        <div class="project-art art-sign">
+                            <div class="gesture-box">
+                                <span>✳</span>
+                                <div class="gesture-lines"></div>
+                                <small>HAND GESTURE RECOGNITION</small>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sign Language Converter</h3>
+                            <p>A project designed to recognise hand gestures and support sign language conversion.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span><span>Python</span><span>Flask</span><span>MediaPipe</span>
+                            </div>
+                            <span class="project-note">Academic Project</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-type">E-COMMERCE</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+                        <div class="project-art art-perfume">
+                            <div class="perfume-mock">
+                                <span>ÉLORA</span>
+                                <div class="perfume-bottle"><i></i></div>
+                                <small>YOUR SIGNATURE SCENT</small>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>ÉLORA Perfume Website</h3>
+                            <p>A luxury perfume website featuring an elegant design and responsive layout.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Tailwind</span>
+                            </div>
+                            <a href="https://elloraperfumes.vercel.app/"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">View Live Project <span>↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">04</span>
+                            <span class="project-type">WEB PROJECT</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+                        <div class="project-art art-food">
+                            <div class="food-mock">
+                                <span>GOOD FOOD.</span>
+                                <strong>GOOD MOOD.</strong>
+                                <div class="food-circles"><i></i><i></i><i></i></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Online Food Ordering System</h3>
+                            <p>A web project designed to display food items and support an online ordering experience.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+                            </div>
+                            <span class="project-note">Academic Project</span>
+                        </div>
+                    </article>
+
+                    <!-- <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">05</span>
+                            <span class="project-type">TYPESCRIPT</span>
+                            <span class="project-icon">↗</span>
+                        </div>
+                        <div class="project-art art-todo">
+                            <div class="todo-mock">
+                                <h4>My Tasks<span>_</span></h4>
+                                <p><i></i> Learn TypeScript</p>
+                                <p><i></i> Build a project</p>
+                                <p><i></i> Keep improving</p>
+                            </div>
+                        </div> -->
+                        <!-- <div class="project-content">
+                            <h3>To-Do Application</h3>
+                            <p>A task management app to add, display and manage to-do items.</p>
+                            <div class="project-tags">
+                                <span>TypeScript</span><span>HTML</span><span>CSS</span>
+                            </div>
+                            <span class="project-note">Learning Project</span>
+                        </div> -->
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+            <div class="section-wrap">
+                <div class="contact-panel reveal">
+                    <p class="eyebrow">HAVE AN OPPORTUNITY?</p>
+                    <h2>Let's build something<br><span class="accent-text">meaningful.</span></h2>
+                    <p class="contact-description">
+                        I'm open to learning opportunities and entry-level
+                        software development roles. Let's connect.
+                    </p>
+
+                    <a href="mailto:ayanassanthosh@gmail.com" class="btn btn-primary">
+                        Say Hello <span>↗</span>
+                    </a>
+
+                    <div class="contact-details">
+                        <a href="mailto:ayanassanthosh@gmail.com">ayanassanthosh@gmail.com</a>
+                        <div class="contact-socials">
+                            <a href="https://github.com/ayana-2"
+                               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                            <a href="https://www.linkedin.com/in/ayanakm/"
+                               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">ayana<span>.</span>dev</a>
+        <p>Designed & built by Ayana KM.</p>
+        <p>© <span id="year">2026</span> All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
